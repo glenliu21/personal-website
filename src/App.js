@@ -23,7 +23,6 @@ function App() {
           <Route path="MetaphysicalInvestigationSin" element={<MetaphysicalInvestigationSin />} /> 
           <Route path="JobJustice" element={<JobJustice />} />
           <Route path="ClassicalMusic" element={<ClassicalMusic />} />
-          {/* <Route path="UtilityMonster" element={<UtilityMonster />} />  */}
         </Route>
         <Route path='philosophy' element={<Philosophy />} />
         <Route path='projects' element={<Projects />} />
