@@ -5,7 +5,8 @@ function Keywords() {
     return (  
         <div className="popular-keywords">
             <h1>Popular keywords</h1>
-            <Keyword />
+            <Keyword keyword="Philosophy"/>
+            <Keyword keyword="Theology"/>
         </div>
     );
 }

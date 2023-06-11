@@ -1,5 +1,5 @@
 import React from 'react';
-import harvardIcon from "../../assets/icons/harvardIcon.svg";
+import harvardIcon from "../../../assets/icons/workIcons/harvardIcon.svg";
 
 function HarvardIcon() {
     return ( 

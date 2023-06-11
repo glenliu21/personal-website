@@ -1,5 +1,5 @@
 import React from 'react';
-import ojoIcon from "../../assets/icons/ojoIcon.svg";
+import ojoIcon from "../../../assets/icons/workIcons/ojoIcon.svg";
 
 function OjoIcon() {
     return ( 

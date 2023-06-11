@@ -18,7 +18,7 @@ for (var basename in posts_json) {
     );
 }
 
-function BlogPosts() {
+function Posts() {
     return (
         <div>
             <BlogHeader />
@@ -28,4 +28,4 @@ function BlogPosts() {
     );
 }
 
-export default BlogPosts;
+export default Posts;

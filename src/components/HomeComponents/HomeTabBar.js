@@ -4,8 +4,9 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import HarvardIcon from "./HarvardIcon";
-import OjoIcon from './OjoIcon';
+import HarvardIcon from "./Icons/HarvardIcon";
+import OjoIcon from './Icons/OjoIcon';
+import AffinipayIcon from './Icons/AffinipayIcon';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
 function TabPanel(props) {
@@ -71,27 +72,30 @@ export default function HomeTabBar() {
                 >
                     <Tab disableRipple icon={<HarvardIcon />} {...a11yProps(0)} />
                     <Tab disableRipple icon={<OjoIcon />}  {...a11yProps(1)} />
+                    <Tab disableRipple icon={<AffinipayIcon />}  {...a11yProps(2)} />
                 </Tabs>
                 <TabPanel className="tab-desc" value={value} index={0}>
-                    <h1>Undergrad @ <a className="tab-desc-title" href="https://college.harvard.edu/" target="_blank" rel="noopener noreferrer">Harvard College</a></h1>
+                    <h1>Undergrad @ <a className="tab-desc-title" href="https://college.harvard.edu/" target="_blank" rel="noopener noreferrer">Harvard</a></h1>
                     <h2>Class of 2025</h2>
                     <ul>
                         <li>Studying CS and Philosophy</li>
-                        <li>Co-social chair for <a className="tab-desc-link" href="https://www.harvardcsa.org/" target="_blank" rel="noopener noreferrer">
+                        <li>Secretary for <a className="tab-desc-link" href="https://www.harvardcsa.org/" target="_blank" rel="noopener noreferrer">
                             HRCSA
-                        </a>
-                        </li>
-                        <li>Sourcing principal for <a className="tab-desc-link" href="https://www.harvardcap.org/" target="_blank" rel="noopener noreferrer">
-                            HUCP
                         </a>
                         </li>
                     </ul>
                 </TabPanel>
                 <TabPanel className="tab-desc" value={value} index={1}>
                     <h1>Data Science Intern @ <a className="tab-desc-title" href="https://ojolabs.com/" target="_blank" rel="noopener noreferrer">OJO Labs</a></h1>
-                    <h2>June 2022-August 2022</h2>
+                    <h2>June 2022 - August 2022</h2>
                     <ul>
                         <li>Developed a location embedding model using the Skip-Gram Word2Vec algorithm trained on user clickstream data (see "Projects")</li>
+                    </ul>
+                </TabPanel>
+                <TabPanel className="tab-desc" value={value} index={2}>
+                    <h1>Software Dev Intern @ <a className="tab-desc-title" href="https://affinipay.com/" target="_blank" rel="noopener noreferrer">Affinipay</a></h1>
+                    <h2>May 2023 - Present</h2>
+                    <ul>
                     </ul>
                 </TabPanel>
             </Box>

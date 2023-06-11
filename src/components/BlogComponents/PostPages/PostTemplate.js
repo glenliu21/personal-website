@@ -9,7 +9,7 @@ function PostTemplate(props) {
         <div className="post">
             <div className="post-heading">
                 <h1>{post_data.title}</h1>
-                <h3>Posted {post_data.date}</h3>
+                <h3>Written {post_data.date}</h3>
                 <h2>{post_data.subtitle}</h2>
                 <Divider>O</Divider>
             </div>

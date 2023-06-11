@@ -102,6 +102,7 @@ footer {
 
 .phil-article {
   border-bottom: 1px solid #7F8487;
+  margin-top: 5px;
   text-align: left;
 }
 
@@ -159,7 +160,6 @@ footer {
 
 .phil-content {
   margin: 22px auto 0 auto;
-  padding-top: 10px;
   text-align: center;
   border-top: 1px solid #7F8487;
   width: 87.5%

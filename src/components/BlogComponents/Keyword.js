@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 
-function Keyword() {
+function Keyword(props) {
     return (  
         <Button 
             disableRipple 
@@ -10,10 +10,11 @@ function Keyword() {
                 borderColor: "#1D1D1D",
                 color: "#266AA6",
                 fontWeight: "bold",
-                fontFamily: "Raleway, sans-serif"
+                fontFamily: "Raleway, sans-serif",
+                margin: "0 5px 5px 0",
             }}
         >
-            philosophy
+            {props.keyword}
         </Button>
     );
 }
