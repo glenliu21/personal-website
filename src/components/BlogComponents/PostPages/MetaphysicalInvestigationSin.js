@@ -1,0 +1,37 @@
+import React from 'react';
+import PostTemplate from './PostTemplate';
+
+var body =
+    <div>
+        <p>What is the definition of "sin"? </p>
+
+        <p>I find it intriguing that the Bible doesn't explicitly define what sin is. There's no verse that begins with the words "Sin is when one person..." What we do know, however, is that sin is central to the Christian faith. 2 Corinthians 5:21 states: "For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God." Here, Paul makes it clear that it's because of our condemnation due to sin that Jesus Christ died for us, and subsequently, it's because of Christ that we are able to be freed from our sinful ways. Such a process is commonly referred to as "sanctification," the believer's journey of becoming more holy and ridding themselves of their sinful parts. But such a journey is bound to end in frustration if we don't understand exactly what sin is. How can I flee from sin if I'm not entirely sure what sin is?</p>
+
+        <p>The conceptualization of sanctification as a journey towards righteousness invites significant parallels to Aristotle's <em>Nicomachean Ethics</em>. Aristotle’s most significant work on ethics, it served as a framework for many Christian moral philosophers, especially Aquinas. A cursory understanding of Aristotle's Ethics tells us why. He argues that "the human good becomes an activity of soul in accord with virtue" (<em>NE</em>, Book 1, Chapter 7, 1098a). Aristotle believed that the goal of life is the achievement of eudaimonia, usually translated as something akin to "happiness" or "human flourishing." The process of reaching eudaimonia, he elaborates, consists of living a virtuous life, one that is conducted in accord with certain moral and intellectual virtues, some of which being courage, temperance, and magnanimity. </p>
+
+        <p>What, then, is Christian eudaimonia, the goal of the Christian life? Most fundamentally, the goal of the believer's life on Earth is to become like Christ. Ephesians instructs us to "be imitators of Christ" (Ephesians 5:1 ESV), and so Christian eudaimonia necessitates being holy and righteous to the same degree as Christ's. As Aquinas writes in the <em>Summa Theologica</em>: "Further, happiness is the supreme good. But it belongs to God to be the supreme good. Since, then, there are not several supreme goods, it seems that happiness is the same as God" (2a, Q3, A1). As Christ was the perfect manifestation of God on Earth, so we are called to embody that same perfection.</p>
+
+        <p>And if Christ was the perfect manifestation of God on earth, then he demonstrated to all what a perfectly virtuous life looks like. When he washed the feet of his disciples (see John 13), he demonstrated the virtue of humility. When he prayed earnestly in the Garden of Gethsemane and concluded "not my will, but yours, be done" (Luke 22:42 ESV), he demonstrated the virtue of faith. And when Christ was ultimately sacrificed for our sins, he demonstrated the virtue of love. Ephesians 5:2 says: "And walk in love, as Christ loved us and gave himself up for us" (ESV), and it is through this eternal sacrifice that we can know what love truly looks like.</p>
+
+        <p>Now, we know that to be more like Christ is to be less sinful, for sin is the antithesis of God's nature. And if God is virtuous, then sin is the opposite of virtue: it is vice.  In his <em>Ethics</em>, Aristotle writes that “virtue is also a mean with respect to two vices, the one vice related to excess, the other to deficiency” (Book 2, Chapter 6, 1107a). In other words, a vice is a virtue that has been corrupted: for instance, the virtue of courage which has been pushed to an excess, so that it has become the vice of rashness; or when courage has been taken to a deficiency, so that it has become the vice of cowardice. Sin, in fact, is much the same: it is a Christ-like virtue that has been corrupted. Take the sin of idolatry, which manifests itself in the sinner putting worldly things above God. On this matter, John writes: “Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in him.” (1 John 2:15 ESV). This verse implies that idolatry is the corruption of love. As humans, we were created to love and worship God above all things, but in idolatry we find ourselves worshiping his creation more than the creator. </p>
+
+        <p>Thus, our moral duty is to “cleanse ourselves from every defilement of body and spirit” (2 Corinthians 7:1 ESV), that is, the vices that are presently within our character. In Colossians, Paul instructs his readers to "Put to death therefore what is earthly in you: sexual immorality, impurity, passion, evil desire, and covetousness, which is idolatry" (Colossians 3:5 ESV). Instead, we are to put on the virtues of Christ, as Paul also goes on to explicitly say: "Put on then, as God's chosen ones, holy and beloved, compassionate hearts, kindness, humility, meekness, and patience" (Colossians 3:12 ESV).</p>
+
+        <p>How, then, are we to put on these Christ-like virtues, which is our lifelong calling yet impossible to complete during our time on Earth? Aristotle provides part of the answer. In his <em>Ethics</em>, he writes: "moral virtue is the result of habit" (Book 2, Chapter 1, 1103a15). For just as "by building houses, people become house builders", so "by doing just things we become just; moderate things, moderate; and courageous things, courageous." (<em>NE</em>, Book 2, Chapter 1, 1103a15-1103b). But the moral standard of the Christian is even higher, for we are not called to be virtuous by Aristotle's standards but rather by God's standards, which are perfect and holy. To the Israelites, God gave this instruction: “Consecrate yourselves therefore, and be holy, for I am holy” (Leviticus 11:44 ESV). This essential truth is presented in varying forms throughout the Bible, but its central claim is always the same: God is holiness. As such, it is God alone who defines what is virtue and what is vice. </p>
+
+        <p>From this fundamental truth, Aquinas concludes: "Therefore man's happiness consists in the knowledge of God, which is an act of the intellect"  (<em>ST</em>, 2a, Q3, A4). In other words, our most elementary step is to know God and to know Him intimately. We are instructed to be constantly in his Word and examining the life and deeds of Christ as well as the patriarchs and Biblical heroes and heroines that preceded him. Moreover, we must begin our learning of virtue from the perspective of a newborn infant. We must have great intellectual humility, understanding the fallibility of our notions of virtue compared to the infallibility of God's.</p>
+
+        <p>It is only once we have saturated ourselves in these eternal truths that we can begin to know what the virtues of Christ look like. Once armed with this requisite knowledge of virtue, we can then “put on the Lord Jesus Christ” (Romans 13:14 ESV) in all aspects of our life. In doing so, we steadily and faithfully progress towards becoming the light of this world that Jesus calls us to be: "In the same way, let your light shine before others, that they may see your good deeds and glorify your Father in heaven" (Matthew 5:16 ESV).</p>
+
+    </div>
+
+function MetaphysicalInvestigationSin() {
+    return (
+        <PostTemplate
+            basename="MetaphysicalInvestigationSin"
+            body={body}
+        />
+    )
+}
+
+export default MetaphysicalInvestigationSin;

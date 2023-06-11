@@ -1,0 +1,36 @@
+{
+    "JobJustice": {
+        "title": "Job and Justice",
+        "subtitle": "An investigation of God's justice through the book of Job",
+        "date": "2023-06-05",
+        "basename": "JobJustice",
+        "keywords": [
+            "Theology",
+            "Philosophy"
+        ]
+    },
+    "ClassicalMusic": {
+        "title": "Why Can't I Appreciate Classical Music?",
+        "subtitle": "An attempt to logically justify why I don't like classical music",
+        "date": "2023-05-03",
+        "basename": "ClassicalMusic",
+        "keywords": []
+    },
+    "MetaphysicalInvestigationSin": {
+        "title": "A Metaphysical Investigation of Sin",
+        "subtitle": "What virtue ethics can teach us about sanctification",
+        "date": "2023-01-25",
+        "basename": "MetaphysicalInvestigationSin",
+        "keywords": [
+            "Theology",
+            "Philosophy"
+        ]
+    },
+    "Introduction": {
+        "index": "0",
+        "title": "Introduction",
+        "subtitle": "What this blog is meant to be",
+        "date": "2023-01-01",
+        "keywords": []
+    }
+}
