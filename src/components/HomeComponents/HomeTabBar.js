@@ -93,7 +93,7 @@ export default function HomeTabBar() {
                     </ul>
                 </TabPanel>
                 <TabPanel className="tab-desc" value={value} index={2}>
-                    <h1>Software Dev Intern @ <a className="tab-desc-title" href="https://affinipay.com/" target="_blank" rel="noopener noreferrer">Affinipay</a></h1>
+                    <h1>Software Dev Intern @ <a className="tab-desc-title" href="https://affinipay.com/" target="_blank" rel="noopener noreferrer">AffiniPay</a></h1>
                     <h2>May 2023 - Present</h2>
                     <ul>
                     </ul>
