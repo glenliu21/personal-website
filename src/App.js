@@ -5,10 +5,7 @@ import Blog from "./pages/blog";
 import Philosophy from "./pages/philosophy";
 import Projects from "./pages/projects";
 import Posts from "./components/BlogComponents/PreviewComponents/Posts";
-import MetaphysicalInvestigationSin from "./components/BlogComponents/PostPages/MetaphysicalInvestigationSin";
-// import UtilityMonster from "./components/BlogComponents/PostPages/UtilityMonster";
 import Introduction from "./components/BlogComponents/PostPages/Introduction";
-import JobJustice from "./components/BlogComponents/PostPages/JobJustice";
 import ClassicalMusic from "./components/BlogComponents/PostPages/ClassicalMusic";
 
 function App() {
@@ -20,8 +17,6 @@ function App() {
           <Route index element={<Posts />} />
           {/* Blog post pages */}
           <Route path="Introduction" element={<Introduction />} />
-          <Route path="MetaphysicalInvestigationSin" element={<MetaphysicalInvestigationSin />} /> 
-          <Route path="JobJustice" element={<JobJustice />} />
           <Route path="ClassicalMusic" element={<ClassicalMusic />} />
         </Route>
         <Route path='philosophy' element={<Philosophy />} />
