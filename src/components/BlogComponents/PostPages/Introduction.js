@@ -9,7 +9,7 @@ var body =
 
         <h1>What is in a Post</h1>
 
-        <p>The subject-matter of my posts will vary, but I enjoy thinking about philosophy, theology, and literature, so I expect that the vast majority of my posts will lie in one of those subjects.</p>
+        <p>The subject-matter of my posts will vary, but I enjoy thinking about philosophy and literature, so I expect that the vast majority of my posts will lie in one of those subjects.</p>
 
         <p>Each post will center around some idea that I've been pondering, generally presented in the form of a claim that I'll defend. Thus, each post will be laid out in a general argumentative structure. However, I'm hoping that the similarity between my posts and academic writing ends there. I actively stray away from making my posts overly rigorous because I want them to be understandable by everyone (if you wish to read overly rigorous writing, please see the "Philosophy" section). I use formalism in my posts only to make my thoughts coherent, not so that I can defend them rigorously. As such, my arguments may have gaps in logic, and they will almost certainly be missing other parts that would be requisite in a philosophical paper. But what I want to highlight is that these posts are not intended to <em>prove</em> some claim but rather to <em>introduce</em> some idea that I'm hoping the reader will think deeper about. Thus, my posts really should be taken for what they are: half-baked ruminations that I'm still pondering. </p>
 
