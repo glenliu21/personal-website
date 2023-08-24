@@ -70,19 +70,15 @@ export default function HomeTabBar() {
                     aria-label="Vertical tabs example"
                     sx={{ borderRight: mdOnly ? 0 : (smOnly ? 0 : 1), borderColor: "#7F8487" }}
                 >
-                    <Tab disableRipple icon={<HarvardIcon />} {...a11yProps(0)} />
+                    <Tab disableRipple icon={<AffinipayIcon />} {...a11yProps(0)} />
                     <Tab disableRipple icon={<OjoIcon />}  {...a11yProps(1)} />
-                    <Tab disableRipple icon={<AffinipayIcon />}  {...a11yProps(2)} />
+                    <Tab disableRipple icon={<HarvardIcon />}  {...a11yProps(2)} />
                 </Tabs>
                 <TabPanel className="tab-desc" value={value} index={0}>
-                    <h1>Undergrad @ <a className="tab-desc-title" href="https://college.harvard.edu/" target="_blank" rel="noopener noreferrer">Harvard</a></h1>
-                    <h2>Class of 2025</h2>
+                    <h1>Software Dev Intern @ <a className="tab-desc-title" href="https://affinipay.com/" target="_blank" rel="noopener noreferrer">AffiniPay</a></h1>
+                    <h2>May 2023 - Present</h2>
                     <ul>
-                        <li>Studying CS and Philosophy</li>
-                        <li>Secretary for <a className="tab-desc-link" href="https://www.harvardcsa.org/" target="_blank" rel="noopener noreferrer">
-                            HRCSA
-                        </a>
-                        </li>
+                        <li>Designed, implemented, and tested features for firm's core payment processing service using Java and Spring</li>
                     </ul>
                 </TabPanel>
                 <TabPanel className="tab-desc" value={value} index={1}>
@@ -93,9 +89,18 @@ export default function HomeTabBar() {
                     </ul>
                 </TabPanel>
                 <TabPanel className="tab-desc" value={value} index={2}>
-                    <h1>Software Dev Intern @ <a className="tab-desc-title" href="https://affinipay.com/" target="_blank" rel="noopener noreferrer">AffiniPay</a></h1>
-                    <h2>May 2023 - Present</h2>
+                    <h1>Undergrad @ <a className="tab-desc-title" href="https://college.harvard.edu/" target="_blank" rel="noopener noreferrer">Harvard</a></h1>
+                    <h2>Class of 2025</h2>
                     <ul>
+                        <li>Studying CS and Philosophy</li>
+                        <li>Secretary for <a className="tab-desc-link" href="https://www.harvardcsa.org/" target="_blank" rel="noopener noreferrer">
+                            HRCSA
+                        </a>
+                        </li>
+                        {/* <li>Former Managing Director of Sourcing for <a className="tab-desc-link" href="https://www.harvardcap.org/" target="_blank" rel="noopener noreferrer">
+                            HUCP
+                        </a>
+                        </li> */}
                     </ul>
                 </TabPanel>
             </Box>

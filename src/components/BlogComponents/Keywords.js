@@ -6,7 +6,6 @@ function Keywords() {
         <div className="popular-keywords">
             <h1>Popular keywords</h1>
             <Keyword keyword="Philosophy"/>
-            <Keyword keyword="Theology"/>
         </div>
     );
 }
