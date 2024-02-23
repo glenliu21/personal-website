@@ -76,7 +76,7 @@ export default function HomeTabBar() {
                 </Tabs>
                 <TabPanel className="tab-desc" value={value} index={0}>
                     <h1>Software Dev Intern @ <a className="tab-desc-title" href="https://affinipay.com/" target="_blank" rel="noopener noreferrer">AffiniPay</a></h1>
-                    <h2>May 2023 - Present</h2>
+                    <h2>May 2023 - August 2023</h2>
                     <ul>
                         <li>Designed, implemented, and tested features for firm's core payment processing service using Java and Spring</li>
                     </ul>
@@ -93,14 +93,8 @@ export default function HomeTabBar() {
                     <h2>Class of 2025</h2>
                     <ul>
                         <li>Studying CS and Philosophy</li>
-                        <li>Secretary for <a className="tab-desc-link" href="https://www.harvardcsa.org/" target="_blank" rel="noopener noreferrer">
-                            HRCSA
-                        </a>
+                        <li>Course Assistant for MATH154: Probability Theory
                         </li>
-                        {/* <li>Former Managing Director of Sourcing for <a className="tab-desc-link" href="https://www.harvardcap.org/" target="_blank" rel="noopener noreferrer">
-                            HUCP
-                        </a>
-                        </li> */}
                     </ul>
                 </TabPanel>
             </Box>
